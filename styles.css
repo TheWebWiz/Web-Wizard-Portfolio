@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+:root {
+    --header-bg-color: rgb(15, 2, 51);
+    --header-card-bg-color: white;
+    --nav-bg-color: ;
+}
+
 html {
     font-size: 20px;
 }
@@ -12,9 +18,9 @@ header {
     text-align: center;
     width: 100%;
     height: 50rem;
-    background-color: rgb(15, 2, 51);
+    background-color: var(--header-bg-color);
     display: grid;
-    grid-template-columns: auto auto 3rem auto auto;
+    grid-template-columns: auto auto 6rem auto auto;
     grid-template-rows: auto auto auto auto;
     justify-content: center;
 }
@@ -26,7 +32,7 @@ h1 {
 }
 
 .header-card {
-    background-color: white;
+    background-color: var(--header-card-bg-color);
     width: 23rem;
     height: 30rem;
     text-decoration: none;
@@ -69,4 +75,31 @@ li {
 
 li a {
     text-decoration: none;
+}
+
+#about-me-section {
+    display: grid;
+    grid-template-columns: auto 50px auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+}
+
+#about-me-header {
+    text-align: center;
+    grid-area: 1 / 1 / 1 / 4;
+}
+
+#about-me-img {
+    width: 500px;
+    height: auto;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#about-me-text {
+    grid-area: 2 / 3 / 3 / 4;
+    margin-top: 20px;
+}
+
+#about-me-link {
+    grid-area: 3 / 3 / 4 / 4 ;
 }
