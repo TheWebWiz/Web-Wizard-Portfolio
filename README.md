@@ -11,9 +11,11 @@
     <hr />
     <br />
     <h2>Updates</h2>
-    <h3>Update 1</h3>
     <ul>
+      <h3>Update 1</h3>
       <li><code>develop</code> branch created! Time to get to work!</li>
+      <h3>Update 2</h3>
+      <li>CSS Created for the header, nav, and about me! I srill need too choose a font and do some small level tweaking but I love how this is turning out!</li>
     </ul>
     <hr />
     <br />
