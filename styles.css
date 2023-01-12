@@ -145,11 +145,27 @@ li a {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
+    width: 100vw;
+    height: 110vh;
     text-align: center;
+    background-image: url(/Images/WW.001.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    color: white;
+
+}
+
+.skill-card {
+    width: 76px;
+    height: 100px;
+    object-fit: cover;
 }
 
 #featured-skills-header {
     grid-area: 1 / 1 / 2 / 4;
+    margin-top: 10vh;
 }
 
 #skills-programming-section {
@@ -161,6 +177,7 @@ li a {
 
 #skills-programming-header {
     grid-area: 1 / 1 / 2 / 4;
+    margin-bottom: 10vh;
 }
 
 #programming-skill-one {
@@ -192,6 +209,7 @@ li a {
 
 #skills-professional-header {
     grid-area: 1 / 1 / 2 / 4;
+    margin-bottom: 10vh;
 }
 
 #professional-skill-one {
@@ -217,29 +235,48 @@ li a {
 
 #featured-skills-text {
     grid-area: 3 / 1 / 4 / 4;
+    margin-top: 10vh;
 }
 
 /*Featured Projects Section*/
 
 #featured-projects-section {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: auto auto;
+    height: 100vh;
+    text-align: center;
 }
 
 #featured-projects-header {
     grid-area: 1 / 1 / 2 / 4;
 }
 
+.project-card {
+    background-color: white;
+    max-width: 40vw;
+    margin: 0px 10vh;
+}
+
+.project-card h3, p {
+    margin-top: 3vh 10%;
+    width: 30vw;
+}
+
+.project-img {
+    width: 100%;
+}
+
 #featured-projects-one {
     grid-area: 2 / 1 / 3 / 2;
 }
 
-#featured-projects-two {
+#see-more-projects {
     grid-area: 2 / 2 / 3 / 3;
+    align-self: center;
 }
 
-#see-more-projects {
+#featured-projects-two {
     grid-area: 2 / 3 / 3 / 4;
 }
 
