@@ -25,6 +25,7 @@ header {
     grid-template-columns: auto auto 3vw auto auto;
     grid-template-rows: auto auto auto auto;
     justify-content: center;
+    font-family: 'Aboreto', cursive;
 }
 
 h1 {
@@ -35,7 +36,17 @@ h1 {
     position: absolute;
     top: 0;
     padding: 20px 0px;
+    font-weight: bold;
     
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Aboreto', cursive;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
 }
 
 .card {
@@ -328,5 +339,5 @@ footer {
 }
 
 #dedication {
-    color: white;
+    color: grey;
 }

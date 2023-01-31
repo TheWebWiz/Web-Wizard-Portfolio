@@ -18,6 +18,8 @@
       <li>CSS Created for the header, nav, and about me! I srill need too choose a font and do some small level tweaking but I love how this is turning out!</li>
       <h3>Update 3</h3>
       <li>All positioning and main CSS has been finished on the main page. Finally all I have left is the responsive design on mobile, fonts, text and colors! After thats I should be ready to build the rest of the site out. </li>
+      <h3>Update 4</h3>
+      <li>Today I added some more pages and gave the site some movement. I also slected the fonts and fixed a few issues they caused.</li>
     </ul>
     <hr />
     <br />
