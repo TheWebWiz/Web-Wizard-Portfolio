@@ -20,6 +20,8 @@
       <li>All positioning and main CSS has been finished on the main page. Finally all I have left is the responsive design on mobile, fonts, text and colors! After thats I should be ready to build the rest of the site out. </li>
       <h3>Update 4</h3>
       <li>Today I added some more pages and gave the site some movement. I also slected the fonts and fixed a few issues they caused.</li>
+      <h3>Update 5</h3>
+      <li>I finished the main page! Not ready for mobile, but I think I will build out the site more before working on that. A few more steps and we will be ready to let the site go live.</li>
     </ul>
     <hr />
     <br />
