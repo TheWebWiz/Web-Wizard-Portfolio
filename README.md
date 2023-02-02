@@ -22,6 +22,8 @@
       <li>Today I added some more pages and gave the site some movement. I also slected the fonts and fixed a few issues they caused.</li>
       <h3>Update 5</h3>
       <li>I finished the main page! Not ready for mobile, but I think I will build out the site more before working on that. A few more steps and we will be ready to let the site go live.</li>
+      <h3>Update 6</h3>
+      <li>finished all properties of the about me, and projects page. I have two more pages to go then I will add any remaining content, review the rest of the site, than it will be ready for publish. In the effort to save time, the mobile site will be published at a later time. From know on, I will be doing mobile first.</li>
     </ul>
     <hr />
     <br />
