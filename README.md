@@ -25,7 +25,9 @@
       <h3>Update 6</h3>
       <li>Finished all properties of the about me, and projects page. I have two more pages to go then I will add any remaining content, review the rest of the site, than it will be ready for publish. In the effort to save time, the mobile site will be published at a later time. From know on, I will be doing mobile first.</li>
       <h3>Update 7</h3>
-      <li>Added html and css to skills. Now I only have one page to go, the contact me, then I will be ready to add contetn and get this site published!!</li>
+      <li>Added html and css to skills. Now I only have one page to go, the contact me, then I will be ready to add content and get this site published!</li>
+      <h3>Update 8</h3>
+      <li>Html and Css is finished throughout the site. Also, all of the links now work throught the entire site.Next I will add content, then it will be ready for reveiw and finally publication.</li>
     </ul>
     <hr />
     <br />

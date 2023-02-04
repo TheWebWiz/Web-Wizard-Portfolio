@@ -186,6 +186,8 @@ main {
 #about-me-img {
     width: 300px;
     height: auto;
+    border-radius: 150px;
+    border: 7px solid rgba(43, 20, 20, 0.85);
 }
 
 #about-me-text {
@@ -368,6 +370,10 @@ main {
     color: white;
 }
 
+#see-more-projects:hover {
+    filter: none;
+}
+
 #more-projects-link {
     border-radius: 8px;
 }
@@ -390,28 +396,27 @@ footer {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 380px;
+    height: auto;
     background-color: black;
     padding-top: 10px;
+    border-top: 3px solid silver;
 }
 
 #footer-back-to-top {
     background-color: grey;
-    width: 190px;
-    height: 190px;
+    width: 140px;
+    height: 140px;
     border-radius: 97.5px;
     border: 10px solid rgba(43, 20, 20, 1);
     text-decoration: none;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer-back-to-top:hover {
     filter: brightness(120%);
-}
-
-#footer-back-to-top img {
-    width: 100px;
-    height: auto;
 }
 
 .footer-card img {
@@ -433,7 +438,7 @@ footer {
 /*about me page*/
 
 #about-main {
-    height: 1200px;
+    height: auto;
 }
 
 #about-pictures {
@@ -449,14 +454,38 @@ footer {
     transition: transform 0.4s;
 }
 
-#about-pictures img:hover {
-    transform: scale(1.8) rotate(0.01deg);
+#about-img-one:hover {
+    transform: scale(1.8) rotate(0.01deg) translate(50px, 100px);
+    z-index: 2;
 }
+
+#about-img-two:hover {
+    transform: scale(1.8) rotate(0.01deg) translate(50px, 100px);
+    z-index: 2;
+}
+
+#about-img-three:hover {
+    transform: scale(1.8) rotate(0.01deg) translate(0px, 100px);
+    z-index: 2;
+}
+
+#about-img-four:hover {
+    transform: scale(1.8) rotate(0.01deg) translate(-50px, 100px);
+    z-index: 2;
+}
+
+#about-img-five:hover {
+    transform: scale(1.8) rotate(0.01deg) translate(-50px, 100px);
+    z-index: 2;
+}
+
+
 
 #about-article {
     width: 600px;
     height: auto;
     text-align: center;
+    margin-bottom: 260px;
 }
 
 #about-article:hover {
@@ -467,10 +496,10 @@ footer {
     margin-top: 0px;
 }
 
+
 /*Project page*/
 #project-page-main {
-    height: 1100px;
-    overflow-y: scroll;
+    height: auto;
 }
 
 .project-page-card {
@@ -508,6 +537,10 @@ footer {
 }
 
 /*My Skills Page*/
+#skills-nav {
+    position: static;
+}
+
 #skill-list {
     height: auto;
     margin-bottom: 400px;
@@ -534,9 +567,4 @@ footer {
 .skill-page-card ul {
     display: flex;
     flex-direction: column;
-}
-
-/*contact me page*/
-#contact-page-main {
-    height: 160vh;
 }

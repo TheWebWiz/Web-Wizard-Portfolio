@@ -14,7 +14,7 @@
     <link rel="icon" type="image/x-icon" href="/Images/WW.001.png" />
     <title>My Projects</title>
   </head>
-  <body>
+  <body id="scroll">
     <nav>
       <ul>
         <h2>James (Web Wizard) Randall</h2>
@@ -22,7 +22,7 @@
           <a href="/index.html"><li>HOME</li></a>
           <a href="/skills.html"><li>SKILLS</li></a>
           <a href="/projects.html"><li>PROJECTS</li></a>
-          <a href="/contact.html"><li>CONTACT</li></a>
+          <a href="mailto:thewebwizard@outlook.com"><li>CONTACT</li></a>
         </div>
         <h2>My Projects</h2>
       </ul>
@@ -36,7 +36,7 @@
         </form> -->
       </section>
       <section>
-        <article class="card project-page-card">
+        <article id="portfolio-card" class="card project-page-card">
           <img src="/Images/projects-place-holder.JPG" alt="" />
           <h3>My Portfolio</h3>
           <p>
@@ -46,11 +46,13 @@
             nam dolor maiores tenetur repellendus!
           </p>
           <ul>
-            <a href="#"><li>Live-Site</li></a>
-            <a href="#"><li>GitHub</li></a>
+            <a href="https://www.web-wizard.tech"><li>Live-Site</li></a>
+            <a href="https://github.com/TheWebWiz/Web-Wizard-Portfolio"
+              ><li>GitHub</li></a
+            >
           </ul>
         </article>
-        <article class="card project-page-card">
+        <!-- <article class="card project-page-card">
           <img src="#" alt="" />
           <h3>Project title</h3>
           <p>
@@ -63,14 +65,13 @@
             <a href="#"><li>Live-Site</li></a>
             <a href="#"><li>GitHub</li></a>
           </ul>
-        </article>
+        </article> -->
       </section>
     </main>
     <footer>
-      <a id="footer-back-to-top" href="#header-skills">
-        <img src="/Images/back-to-top-arrow.png" alt="up arrow" />
+      <!-- <a id="footer-back-to-top" href="#scroll">
         <h4>Return to Top</h4>
-      </a>
+      </a> -->
       <section id="footer-links-section">
         <h3 id="footer-links-header">Links</h3>
         <a
@@ -81,7 +82,7 @@
         <a class="footer-card" href="https://github.com/TheWebWiz"
           ><img src="/Images/github-icon.png" alt="Github"
         /></a>
-        <a class="footer-card" href="/contact.html"
+        <a class="footer-card" href="mailto:thewebwizard@outlook.com"
           ><img src="/Images/email-me-icon.png" alt="Email Me"
         /></a>
       </section>
