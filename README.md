@@ -28,6 +28,8 @@
       <li>Added html and css to skills. Now I only have one page to go, the contact me, then I will be ready to add content and get this site published!</li>
       <h3>Update 8</h3>
       <li>Html and Css is finished throughout the site. Also, all of the links now work throught the entire site.Next I will add content, then it will be ready for reveiw and finally publication.</li>
+      <h3>Update 9</h3>
+      <li>Everything is on the site! All contecnt, links and pictures are finished! After this update all I need to do is some testing of my site, then I will be good to go! Site will be launched 2/6/2023!</li>
     </ul>
     <hr />
     <br />

@@ -386,6 +386,10 @@ main {
     grid-area: 2 / 3 / 3 / 4;
 }
 
+#featured-projects-two:hover {
+    filter: brightness(80%);
+}
+
 /*Footer Section*/
 
 footer {
@@ -482,10 +486,14 @@ footer {
 
 
 #about-article {
-    width: 600px;
+    width: 900px;
     height: auto;
     text-align: center;
     margin-bottom: 260px;
+}
+
+#about-article p {
+    text-align: left;
 }
 
 #about-article:hover {
@@ -518,7 +526,7 @@ footer {
 
 .project-page-card img {
     grid-area: 1 / 1 / 4 / 2;
-    height: auto;
+    height: 100%;
     width: 500px;
     margin-right: 20px;
 }
@@ -530,10 +538,16 @@ footer {
 
 .project-page-card p {
     grid-area: 2 / 2 / 3 / 5;
+    font-size: 20px;
+    text-align: left;
+    padding: 3px;
+    padding-bottom: 0%;
+    height: 100%;
 }
 
 .project-page-card ul {
     grid-area: 3 / 2 / 4 / 4;
+    margin-top: 2px;
 }
 
 /*My Skills Page*/
@@ -547,7 +561,7 @@ footer {
 }
 
 .skill-page-card {
-    width: 100vw;
+    width: auto;
     height: 200px;
     display: flex;
     background-color: rgba(43, 20, 20, 1);
@@ -561,7 +575,13 @@ footer {
 
 .skill-page-card p {
     text-align: left;
-    width: 2200px;
+    width: auto;
+    height: auto;
+    padding: 3px;
+    margin: 6px;
+    margin-left: 15px;
+    background-color: rgba(102, 75, 35, 1);
+    border: 8px solid black;
 }
 
 .skill-page-card ul {
