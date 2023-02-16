@@ -1,68 +1,126 @@
-@import './resets';
-@import './variables';
-@import './about';
-@import './projects';
-@import './skills';
+@import "./resets";
+@import "./variables";
+@import "./about";
+@import "./projects";
+@import "./skills";
 
 img {
-    width: 100%;
+  width: 80%;
 }
 
 html {
-    font-size: 20px;
+  font-size: 20px;
+  width: 100%;
 }
 
 body {
-    background-image: url(/Images/cobblestone-bg.jpg);
-    width: 100%;
+  background-image: url(/Images/cobblestone-bg.jpg);
+  width: 100%;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-header;
+}
+
+p {
+  font-family: $font-family-text;
+}
+
+//header
 
 header {
-    text-align: center;
-    height: auto;
-    background-image: url(/Images/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  text-align: center;
+  height: auto;
+  background-image: url(/Images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    h1 {
-        background-color:  $header-bg-color;
-        color: $white-color;
-        font-family: $font-family-header;
-    }
+  h1 {
+    background-color: $header-bg-color;
+    color: $white-color;
+    font-family: $font-family-header;
+  }
 
-    a {
-        display: none;
-    }
+  a {
+    display: none;
+  }
 }
 
+//navbar
+
 nav {
-    background-color: $brown-color;
-    border: 2px solid $black-color;
-    border-left: 0px;
-    border-right: 0px;
-    position: sticky;
-    top: 0px;
-    height: 2rem;
-    z-index: 1;
+  background-color: $brown-color;
+  border: 2px solid $black-color;
+  border-left: 0px;
+  border-right: 0px;
+  position: sticky;
+  top: 0px;
+  height: 2rem;
+  z-index: 1;
 
-    ul div {
-        display: flex;
-        flex-flow: row;
-        list-style: none;
-        align-items: center;
-        width: auto;
-        justify-content: center;
-        align-items: center;
+  ul div {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    align-items: center;
 
-        a {
-            padding: 3px 5px;
-            margin: 2px 5px;
-            background-color: peachpuff;
-            border-radius: 4px;
-            border: 2.5px solid $black-color;
-            font-family: $font-family-header;
-            font-weight: bold;
-            font-size: .85rem;
-        }
+    a {
+      padding: 3px 5px;
+      margin: 2px 5px;
+      background-color: rgba(217, 217, 217, 1);
+      border-radius: 8px;
+      border: 2.5px solid $black-color;
+      font-family: $font-family-header;
+      font-weight: bold;
+      font-size: 0.85rem;
     }
+  }
+}
+
+//about me section
+
+#about-me-section {
+  background-color: rgb(241, 200, 164);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  #about-me-header {
+    margin: 20px 0px;
+  }
+
+  #about-me-img {
+    width: 300px;
+    height: auto;
+    border-radius: 150px;
+    border: 7px solid rgba(43, 20, 20, 0.85);
+  }
+
+  #about-me-text {
+    margin: 10px;
+  }
+
+  #about-me-link {
+    border: 2px solid black;
+    padding: 10px 30px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgba(43, 20, 20, 0.85);
+    color: white;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: rgba(43, 20, 20, 1);
+    }
+  }
 }

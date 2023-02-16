@@ -19,16 +19,30 @@ a:active {
 }
 
 img {
-  width: 100%;
+  width: 80%;
 }
 
 html {
   font-size: 20px;
+  width: 100%;
 }
 
 body {
   background-image: url(/Images/cobblestone-bg.jpg);
   width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Aboreto", cursive;
+}
+
+p {
+  font-family: "EB Garamond", serif;
 }
 
 header {
@@ -69,10 +83,43 @@ nav ul div {
 nav ul div a {
   padding: 3px 5px;
   margin: 2px 5px;
-  background-color: peachpuff;
-  border-radius: 4px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 8px;
   border: 2.5px solid black;
   font-family: "Aboreto", cursive;
   font-weight: bold;
   font-size: 0.85rem;
+}
+
+#about-me-section {
+  background-color: rgb(241, 200, 164);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#about-me-section #about-me-header {
+  margin: 20px 0px;
+}
+#about-me-section #about-me-img {
+  width: 300px;
+  height: auto;
+  border-radius: 150px;
+  border: 7px solid rgba(43, 20, 20, 0.85);
+}
+#about-me-section #about-me-text {
+  margin: 10px;
+}
+#about-me-section #about-me-link {
+  border: 2px solid black;
+  padding: 10px 30px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: rgba(43, 20, 20, 0.85);
+  color: white;
+  border-radius: 5px;
+}
+#about-me-section #about-me-link:hover {
+  background-color: rgb(43, 20, 20);
 }/*# sourceMappingURL=main.css.map */
