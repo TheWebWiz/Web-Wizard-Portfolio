@@ -4,10 +4,6 @@
 @import "./projects";
 @import "./skills";
 
-img {
-  width: 80%;
-}
-
 html {
   font-size: 20px;
   width: 100%;
@@ -25,6 +21,31 @@ h4,
 h5,
 h6 {
   font-family: $font-family-header;
+  color: $white-color;
+}
+
+.card {
+  width: 378px;
+  height: 600px;
+  //color: white;
+  border: 17px solid $border-brown-color;
+  background-image: url(/Images/cobblestone-bg.jpg);
+
+  &:hover {
+    filter: brightness(120%);
+  }
+
+  h3 {
+    background-color: $border-brown-color;
+    margin: 15px 0px;
+    padding: 10px 0px;
+  }
+
+  p {
+    background-color: rgba(43, 20, 20, 0.85);
+    width: auto;
+    padding: 20px;
+  }
 }
 
 p {
@@ -97,6 +118,7 @@ nav {
 
   #about-me-header {
     margin: 20px 0px;
+    color: $black-color;
   }
 
   #about-me-img {
@@ -156,11 +178,38 @@ nav {
     width: 76px;
     height: 100px;
     object-fit: cover;
-    border: 2px solid white;
+    border: 2px solid $white-color;
     margin: 3px;
 
     &:hover {
       filter: brightness(140%);
+    }
+  }
+}
+
+//featured projects section
+
+#featured-projects-section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    background-color: $border-brown-color;
+    padding: 5px 24px;
+    margin: 15px;
+  }
+
+  .project-card {
+    background-color: $grey-color;
+    background-image: none;
+    color: $white-color;
+
+    img {
+      width: 100%;
     }
   }
 }
