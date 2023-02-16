@@ -207,9 +207,56 @@ nav {
     background-color: $grey-color;
     background-image: none;
     color: $white-color;
+    margin: 20px;
 
     img {
       width: 100%;
     }
+  }
+}
+
+// footer
+
+footer {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  border-top: 3px solid silver;
+
+  #footer-back-to-top {
+    background-color: grey;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    border: 10px solid $border-brown-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      filter: brightness(120%);
+    }
+  }
+
+  img {
+    width: 90px;
+    height: 130px;
+    object-fit: cover;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid white;
+    margin: 10px;
+
+    &:hover {
+      filter: brightness(120%);
+    }
+  }
+
+  #dedication {
+    color: grey;
   }
 }

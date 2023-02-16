@@ -193,7 +193,48 @@ nav ul div a {
   background-color: rgb(119, 119, 119);
   background-image: none;
   color: rgb(255, 255, 255);
+  margin: 20px;
 }
 #featured-projects-section .project-card img {
   width: 100%;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  border-top: 3px solid silver;
+}
+footer #footer-back-to-top {
+  background-color: grey;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  border: 10px solid rgba(43, 20, 20, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer #footer-back-to-top:hover {
+  filter: brightness(120%);
+}
+footer img {
+  width: 90px;
+  height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid white;
+  margin: 10px;
+}
+footer img:hover {
+  filter: brightness(120%);
+}
+footer #dedication {
+  color: grey;
 }/*# sourceMappingURL=main.css.map */
