@@ -124,3 +124,43 @@ nav {
     }
   }
 }
+
+//skills section
+
+#featured-skills-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Images/WW.001.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  color: $white-color;
+
+  #featured-skills-header {
+    margin: 10px;
+  }
+
+  .skill-section {
+    text-align: center;
+  }
+
+  h3 {
+    margin: 15px;
+  }
+
+  .skill-card {
+    width: 76px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid white;
+    margin: 3px;
+
+    &:hover {
+      filter: brightness(140%);
+    }
+  }
+}
