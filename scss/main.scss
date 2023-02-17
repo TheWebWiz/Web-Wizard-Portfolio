@@ -194,7 +194,7 @@ nav {
     border: 2px solid $white-color;
     margin: 3px;
 
-    &:hover {
+    a:hover {
       filter: brightness(140%);
     }
   }

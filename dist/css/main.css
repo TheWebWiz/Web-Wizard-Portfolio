@@ -184,7 +184,7 @@ nav ul div a {
   border: 2px solid rgb(255, 255, 255);
   margin: 3px;
 }
-#featured-skills-section .skill-card:hover {
+#featured-skills-section .skill-card a:hover {
   filter: brightness(140%);
 }
 
@@ -307,5 +307,73 @@ footer #dedication {
   }
   #about-me-section #about-me-text {
     width: 65%;
+  }
+  #featured-skills-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: normal;
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+    text-align: center;
+  }
+  #featured-skills-section #featured-skills-header {
+    grid-area: 1/1/2/4;
+    margin-top: 40px;
+  }
+  #featured-skills-section #skills-programming-section {
+    grid-area: 2/1/3/2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  #featured-skills-section #skills-programming-header {
+    grid-area: 1/1/2/4;
+    margin-bottom: 40px;
+  }
+  #featured-skills-section #programming-skill-one {
+    grid-area: 2/1/3/2;
+  }
+  #featured-skills-section #programming-skill-two {
+    grid-area: 2/3/3/4;
+  }
+  #featured-skills-section #programming-skill-three {
+    grid-area: 3/2/4/3;
+  }
+  #featured-skills-section #programming-skill-four {
+    grid-area: 4/1/5/2;
+  }
+  #featured-skills-section #programming-skill-five {
+    grid-area: 4/3/5/4;
+  }
+  #featured-skills-section #skills-professional-section {
+    grid-area: 2/3/3/4;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  #featured-skills-section #skills-professional-header {
+    grid-area: 1/1/2/4;
+    margin-bottom: 40px;
+  }
+  #featured-skills-section #professional-skill-one {
+    grid-area: 2/1/3/2;
+  }
+  #featured-skills-section #professional-skill-two {
+    grid-area: 2/3/3/4;
+  }
+  #featured-skills-section #professional-skill-three {
+    grid-area: 3/2/4/3;
+  }
+  #featured-skills-section #professional-skill-four {
+    grid-area: 4/1/5/2;
+  }
+  #featured-skills-section #professional-skill-five {
+    grid-area: 4/3/5/4;
+  }
+  #featured-skills-section #featured-skills-text {
+    grid-area: 3/1/4/4;
+    margin-top: 25px;
   }
 }/*# sourceMappingURL=main.css.map */
