@@ -18,6 +18,12 @@ body {
   width: 100%;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -31,7 +37,6 @@ h6 {
 .card {
   width: 378px;
   height: 600px;
-  //color: white;
   border: 17px solid $border-brown-color;
   background-image: url(/Images/cobblestone-bg.jpg);
 
@@ -91,11 +96,15 @@ nav {
   ul div {
     display: flex;
     flex-flow: row;
+    justify-content: center;
     list-style: none;
     align-items: center;
     width: auto;
-    justify-content: center;
     align-items: center;
+
+    h2 {
+      padding: 0px 80px;
+    }
 
     a {
       padding: 3px 5px;
@@ -267,6 +276,6 @@ footer {
 
 //desktop styles import
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
   @import "./desktop";
 }

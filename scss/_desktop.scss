@@ -53,3 +53,18 @@ header {
     }
   }
 }
+
+//about me section
+#about-me-section {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(/Images/scroll-bg.png);
+  height: 1300px;
+  width: 75vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  #about-me-text {
+    width: 65%;
+  }
+}
