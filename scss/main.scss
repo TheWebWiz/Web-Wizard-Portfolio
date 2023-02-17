@@ -3,10 +3,14 @@
 @import "./about";
 @import "./projects";
 @import "./skills";
+//desktop styles at bottom
 
 html {
   font-size: 20px;
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -259,4 +263,10 @@ footer {
   #dedication {
     color: grey;
   }
+}
+
+//desktop styles import
+
+@media only screen and (min-width: 1200px) {
+  @import "./desktop";
 }

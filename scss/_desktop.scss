@@ -1,0 +1,55 @@
+@import "./variables";
+
+header {
+  height: 90vh;
+  min-height: 800px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+
+  h1 {
+    padding: 20px;
+    font-weight: bold;
+    grid-area: 1 / 1 / 2 / 5;
+    width: 100vw;
+    height: 90px;
+  }
+
+  #header-skills {
+    grid-area: 3 / 2 / 4 / 4;
+  }
+
+  #header-projects {
+    grid-area: 3 / 3 / 4 / 5;
+    margin: 0px 50px;
+  }
+
+  .card {
+    h3 {
+      width: 100%;
+      color: $white-color;
+    }
+
+    &-icon {
+      height: 260px;
+      width: 260px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 3px solid $white-color;
+      border-radius: 10px;
+      margin: 40px 0px;
+      padding: 3px;
+    }
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      color: $white-color;
+    }
+  }
+}

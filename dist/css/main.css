@@ -20,7 +20,10 @@ a:active {
 
 html {
   font-size: 20px;
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -237,4 +240,51 @@ footer img:hover {
 }
 footer #dedication {
   color: grey;
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    height: 90vh;
+    min-height: 800px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+  }
+  header h1 {
+    padding: 20px;
+    font-weight: bold;
+    grid-area: 1/1/2/5;
+    width: 100vw;
+    height: 90px;
+  }
+  header #header-skills {
+    grid-area: 3/2/4/4;
+  }
+  header #header-projects {
+    grid-area: 3/3/4/5;
+    margin: 0px 50px;
+  }
+  header .card h3 {
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  header .card-icon {
+    height: 260px;
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 40px 0px;
+    padding: 3px;
+  }
+  header a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header a p {
+    color: rgb(255, 255, 255);
+  }
 }/*# sourceMappingURL=main.css.map */
