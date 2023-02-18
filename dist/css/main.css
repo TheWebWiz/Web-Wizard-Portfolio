@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  background-color: grey;
+}
+a:active {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 20px;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: url(/Images/cobblestone-bg.jpg);
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Aboreto", cursive;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  width: 378px;
+  height: 600px;
+  border: 17px solid rgb(74, 43, 34);
+  background-image: url(/Images/cobblestone-bg.jpg);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.card:hover {
+  filter: brightness(120%);
+}
+.card h3 {
+  background-color: rgb(74, 43, 34);
+  margin: 15px 0px;
+  padding: 10px 0px;
+  width: 100%;
+}
+.card p {
+  background-color: rgb(74, 43, 34);
+  width: auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+p {
+  font-family: "EB Garamond", serif;
+}
+
+header {
+  text-align: center;
+  height: auto;
+  background-image: url(/Images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1 {
+  background-color: rgba(119, 119, 119, 0.54);
+  color: rgb(255, 255, 255);
+  font-family: "Aboreto", cursive;
+}
+header a {
+  display: none;
+}
+
+nav {
+  background-color: rgb(102, 75, 35);
+  border: 2px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  position: sticky;
+  top: 0px;
+  height: 2rem;
+  z-index: 1;
+}
+nav ul div {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  width: auto;
+  align-items: center;
+}
+nav ul div h2 {
+  padding: 0px 80px;
+}
+nav ul div a {
+  padding: 3px 5px;
+  margin: 2px 5px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 8px;
+  border: 2.5px solid black;
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+#about-me-section {
+  background-color: rgb(241, 200, 164);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#about-me-section #about-me-header {
+  margin: 20px 0px;
+  color: black;
+}
+#about-me-section #about-me-img {
+  width: 300px;
+  height: auto;
+  border-radius: 150px;
+  border: 7px solid rgba(43, 20, 20, 0.85);
+}
+#about-me-section #about-me-text {
+  margin: 10px;
+}
+#about-me-section #about-me-link {
+  border: 2px solid black;
+  padding: 10px 30px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: rgba(43, 20, 20, 0.85);
+  color: white;
+  border-radius: 5px;
+}
+#about-me-section #about-me-link:hover {
+  background-color: rgb(43, 20, 20);
+}
+
+#featured-skills-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Images/WW.001.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+#featured-skills-section #featured-skills-header {
+  margin: 10px;
+}
+#featured-skills-section .skill-section {
+  text-align: center;
+}
+#featured-skills-section h3 {
+  margin: 15px;
+}
+#featured-skills-section .skill-card {
+  width: 76px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 3px;
+}
+#featured-skills-section .skill-card a:hover {
+  filter: brightness(140%);
+}
+
+#featured-projects-section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#featured-projects-section h2 {
+  background-color: rgb(74, 43, 34);
+  padding: 5px 24px;
+  margin: 15px;
+}
+#featured-projects-section .project-card {
+  background-color: rgb(119, 119, 119);
+  background-image: none;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+}
+#featured-projects-section .project-card img {
+  width: 100%;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  border-top: 3px solid silver;
+}
+footer #footer-back-to-top {
+  background-color: grey;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  border: 10px solid rgb(74, 43, 34);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer #footer-back-to-top:hover {
+  filter: brightness(120%);
+}
+footer img {
+  width: 90px;
+  height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid white;
+  margin: 10px;
+}
+footer img:hover {
+  filter: brightness(120%);
+}
+footer #dedication {
+  color: grey;
+}
+
+nav div h2 {
+  display: none;
+}
+
+#about-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
+#about-pictures img {
+  width: 100%;
+  height: auto;
+  border: 8px solid rgb(74, 43, 34);
+}
+
+#about-article-section #about-me-article {
+  color: rgb(255, 255, 255);
+  margin: 20px 0px;
+  height: auto;
+  background-image: none;
+  background-color: rgb(241, 200, 164);
+}
+#about-article-section #about-me-article:hover {
+  filter: none;
+}
+#about-article-section #about-me-article h3 {
+  text-align: center;
+}
+
+.project-page-card {
+  background-color: black;
+  background-image: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 10px;
+  margin: 30px;
+}
+.project-page-card:hover {
+  filter: none;
+}
+.project-page-card img {
+  width: 100%;
+  height: auto;
+}
+.project-page-card ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.project-page-card ul a {
+  padding: 3px 5px;
+  margin: 7px 5px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 8px;
+  border: 2.5px solid black;
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+#skill-list {
+  height: auto;
+  margin-bottom: 400px;
+}
+
+.skill-page-card {
+  background-image: none;
+  background-color: rgb(102, 75, 35);
+  margin: 10px;
+  height: auto;
+}
+.skill-page-card img {
+  width: 100%;
+}
+.skill-page-card ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.skill-page-card ul a {
+  padding: 3px 5px;
+  margin: 7px 5px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 8px;
+  border: 2.5px solid black;
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.skill-page-card:hover {
+  filter: none;
+}
+
+@media only screen and (min-width: 900px) {
+  header {
+    height: 90vh;
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  header h1 {
+    padding: 20px;
+    font-weight: bold;
+    width: 100vw;
+    height: 90px;
+  }
+  header #header-projects {
+    margin: 0px 50px;
+  }
+  header .card h3 {
+    width: 100%;
+    color: rgb(255, 255, 255);
+  }
+  header .card-icon {
+    height: 260px;
+    width: 260px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 40px 0px;
+    padding: 3px;
+  }
+  header a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header a p {
+    color: rgb(255, 255, 255);
+  }
+  #about-me-section {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(/Images/scroll-bg.png);
+    height: 1300px;
+    width: 100vw;
+    background-position: center;
+    background-size: 1100px;
+    background-repeat: no-repeat;
+  }
+  #about-me-section #about-me-text {
+    width: 45%;
+    margin: 25px;
+  }
+  #featured-skills-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: normal;
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+    text-align: center;
+  }
+  #featured-skills-section #featured-skills-header {
+    grid-area: 1/1/2/4;
+    margin-top: 40px;
+  }
+  #featured-skills-section #skills-programming-section {
+    grid-area: 2/1/3/2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  #featured-skills-section #skills-programming-header {
+    grid-area: 1/1/2/4;
+    margin-bottom: 40px;
+  }
+  #featured-skills-section #programming-skill-one {
+    grid-area: 2/1/3/2;
+  }
+  #featured-skills-section #programming-skill-two {
+    grid-area: 2/3/3/4;
+  }
+  #featured-skills-section #programming-skill-three {
+    grid-area: 3/2/4/3;
+  }
+  #featured-skills-section #programming-skill-four {
+    grid-area: 4/1/5/2;
+  }
+  #featured-skills-section #programming-skill-five {
+    grid-area: 4/3/5/4;
+  }
+  #featured-skills-section #skills-professional-section {
+    grid-area: 2/3/3/4;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  #featured-skills-section #skills-professional-header {
+    grid-area: 1/1/2/4;
+    margin-bottom: 40px;
+  }
+  #featured-skills-section #professional-skill-one {
+    grid-area: 2/1/3/2;
+  }
+  #featured-skills-section #professional-skill-two {
+    grid-area: 2/3/3/4;
+  }
+  #featured-skills-section #professional-skill-three {
+    grid-area: 3/2/4/3;
+  }
+  #featured-skills-section #professional-skill-four {
+    grid-area: 4/1/5/2;
+  }
+  #featured-skills-section #professional-skill-five {
+    grid-area: 4/3/5/4;
+  }
+  #featured-skills-section #featured-skills-text {
+    grid-area: 3/1/4/4;
+    margin-top: 25px;
+  }
+  nav div h2 {
+    display: block;
+  }
+  #about-pictures img {
+    width: 35%;
+    margin: 30px;
+    border: 17px solid rgb(74, 43, 34);
+  }
+  #about-article-section {
+    display: flex;
+    justify-content: center;
+  }
+  #about-article-section #about-me-article {
+    color: rgb(255, 255, 255);
+    margin: 20px 0px;
+    height: auto;
+    width: 65%;
+  }
+  .project-page-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100vw;
+    height: 300px;
+  }
+  .project-page-card img {
+    grid-area: 1/1/4/2;
+    height: 100%;
+    width: 500px;
+    margin-right: 20px;
+  }
+  .project-page-card h3 {
+    grid-area: 1/2/2/5;
+    width: 100%;
+    text-align: left;
+  }
+  .project-page-card p {
+    grid-area: 2/2/3/5;
+    font-size: 20px;
+    text-align: left;
+    padding: 3px;
+    padding-bottom: 0%;
+    padding-right: 20px;
+    height: 100%;
+  }
+  .project-page-card ul {
+    grid-area: 3/2/4/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-page-card ul a {
+    padding: 10px;
+  }
+  .skill-page-card {
+    width: auto;
+    height: 200px;
+    display: flex;
+    background-color: rgb(43, 20, 20);
+    background-image: none;
+    margin-top: 10px;
+  }
+  .skill-page-card img {
+    width: 200px;
+    height: auto;
+  }
+  .skill-page-card p {
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 3px;
+    margin: 6px;
+    margin-left: 15px;
+    background-color: rgb(102, 75, 35);
+    border: 8px solid black;
+  }
+  .skill-page-card ul {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

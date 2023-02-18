@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  &:visited {
+    color: black;
+  }
+  &:hover {
+    background-color: grey;
+  }
+  &:active {
+    color: white;
+  }
+}
+
+li {
+  list-style: none;
+}
