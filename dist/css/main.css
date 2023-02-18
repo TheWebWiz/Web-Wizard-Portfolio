@@ -18,6 +18,10 @@ a:active {
   color: white;
 }
 
+li {
+  list-style: none;
+}
+
 html {
   font-size: 20px;
   width: 100vw;
@@ -316,6 +320,39 @@ nav div h2 {
   font-size: 0.85rem;
 }
 
+#skill-list {
+  height: auto;
+  margin-bottom: 400px;
+}
+
+.skill-page-card {
+  background-image: none;
+  background-color: rgb(102, 75, 35);
+  margin: 10px;
+  height: auto;
+}
+.skill-page-card img {
+  width: 100%;
+}
+.skill-page-card ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.skill-page-card ul a {
+  padding: 3px 5px;
+  margin: 7px 5px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 8px;
+  border: 2.5px solid black;
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.skill-page-card:hover {
+  filter: none;
+}
+
 @media only screen and (min-width: 900px) {
   header {
     height: 90vh;
@@ -489,5 +526,31 @@ nav div h2 {
   }
   .project-page-card ul a {
     padding: 10px;
+  }
+  .skill-page-card {
+    width: auto;
+    height: 200px;
+    display: flex;
+    background-color: rgb(43, 20, 20);
+    background-image: none;
+    margin-top: 10px;
+  }
+  .skill-page-card img {
+    width: 200px;
+    height: auto;
+  }
+  .skill-page-card p {
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 3px;
+    margin: 6px;
+    margin-left: 15px;
+    background-color: rgb(102, 75, 35);
+    border: 8px solid black;
+  }
+  .skill-page-card ul {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -227,3 +227,35 @@ nav {
     padding: 10px;
   }
 }
+
+//skills page
+
+.skill-page-card {
+  width: auto;
+  height: 200px;
+  display: flex;
+  background-color: rgba(43, 20, 20, 1);
+  background-image: none;
+  margin-top: 10px;
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  p {
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 3px;
+    margin: 6px;
+    margin-left: 15px;
+    background-color: rgba(102, 75, 35, 1);
+    border: 8px solid black;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
