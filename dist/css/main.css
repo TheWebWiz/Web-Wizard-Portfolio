@@ -18,36 +18,6 @@ a:active {
   color: white;
 }
 
-nav div h2 {
-  display: none;
-}
-
-#about-pictures {
-  display: flex;
-  flex-wrap: wrap;
-  height: auto;
-  justify-content: center;
-}
-#about-pictures img {
-  width: 100%;
-  height: auto;
-  border: 8px solid rgba(43, 20, 20, 0.85);
-}
-
-#about-article-section #about-me-article {
-  color: rgb(255, 255, 255);
-  margin: 20px 0px;
-  height: auto;
-  background-image: none;
-  background-color: rgb(241, 200, 164);
-}
-#about-article-section #about-me-article:hover {
-  filter: none;
-}
-#about-article-section #about-me-article h3 {
-  text-align: center;
-}
-
 html {
   font-size: 20px;
   width: 100vw;
@@ -80,16 +50,19 @@ h6 {
 .card {
   width: 378px;
   height: 600px;
-  border: 17px solid rgba(43, 20, 20, 0.85);
+  border: 17px solid rgb(43, 20, 20);
   background-image: url(/Images/cobblestone-bg.jpg);
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 .card:hover {
   filter: brightness(120%);
 }
 .card h3 {
-  background-color: rgba(43, 20, 20, 0.85);
+  background-color: rgb(43, 20, 20);
   margin: 15px 0px;
   padding: 10px 0px;
+  width: 100%;
 }
 .card p {
   background-color: rgba(43, 20, 20, 0.85);
@@ -227,7 +200,7 @@ nav ul div a {
   align-items: center;
 }
 #featured-projects-section h2 {
-  background-color: rgba(43, 20, 20, 0.85);
+  background-color: rgb(43, 20, 20);
   padding: 5px 24px;
   margin: 15px;
 }
@@ -256,7 +229,7 @@ footer #footer-back-to-top {
   width: 140px;
   height: 140px;
   border-radius: 70px;
-  border: 10px solid rgba(43, 20, 20, 0.85);
+  border: 10px solid rgb(43, 20, 20);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,6 +252,68 @@ footer img:hover {
 }
 footer #dedication {
   color: grey;
+}
+
+nav div h2 {
+  display: none;
+}
+
+#about-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
+#about-pictures img {
+  width: 100%;
+  height: auto;
+  border: 8px solid rgb(43, 20, 20);
+}
+
+#about-article-section #about-me-article {
+  color: rgb(255, 255, 255);
+  margin: 20px 0px;
+  height: auto;
+  background-image: none;
+  background-color: rgb(241, 200, 164);
+}
+#about-article-section #about-me-article:hover {
+  filter: none;
+}
+#about-article-section #about-me-article h3 {
+  text-align: center;
+}
+
+.project-page-card {
+  background-color: black;
+  background-image: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 10px;
+  margin: 30px;
+}
+.project-page-card:hover {
+  filter: none;
+}
+.project-page-card img {
+  width: 100%;
+  height: auto;
+}
+.project-page-card ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.project-page-card ul a {
+  padding: 3px 5px;
+  margin: 7px 5px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 8px;
+  border: 2.5px solid black;
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+  font-size: 0.85rem;
 }
 
 @media only screen and (min-width: 900px) {
@@ -407,7 +442,7 @@ footer #dedication {
   #about-pictures img {
     width: 35%;
     margin: 30px;
-    border: 17px solid rgba(43, 20, 20, 0.85);
+    border: 17px solid rgb(43, 20, 20);
   }
   #about-article-section {
     display: flex;
@@ -418,5 +453,41 @@ footer #dedication {
     margin: 20px 0px;
     height: auto;
     width: 65%;
+  }
+  .project-page-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100vw;
+    height: 300px;
+  }
+  .project-page-card img {
+    grid-area: 1/1/4/2;
+    height: 100%;
+    width: 500px;
+    margin-right: 20px;
+  }
+  .project-page-card h3 {
+    grid-area: 1/2/2/5;
+    width: 100%;
+    text-align: left;
+  }
+  .project-page-card p {
+    grid-area: 2/2/3/5;
+    font-size: 20px;
+    text-align: left;
+    padding: 3px;
+    padding-bottom: 0%;
+    padding-right: 20px;
+    height: 100%;
+  }
+  .project-page-card ul {
+    grid-area: 3/2/4/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-page-card ul a {
+    padding: 10px;
   }
 }/*# sourceMappingURL=main.css.map */

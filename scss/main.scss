@@ -1,8 +1,5 @@
 @import "./resets";
 @import "./variables";
-@import "./about";
-@import "./projects";
-@import "./skills";
 //desktop styles at bottom
 
 html {
@@ -39,6 +36,8 @@ h6 {
   height: 600px;
   border: 17px solid $border-brown-color;
   background-image: url(/Images/cobblestone-bg.jpg);
+  color: $white-color;
+  text-align: center;
 
   &:hover {
     filter: brightness(120%);
@@ -48,6 +47,7 @@ h6 {
     background-color: $border-brown-color;
     margin: 15px 0px;
     padding: 10px 0px;
+    width: 100%;
   }
 
   p {
@@ -273,6 +273,11 @@ footer {
     color: grey;
   }
 }
+
+//modules to import after
+@import "./about";
+@import "./projects";
+@import "./skills";
 
 //desktop styles import
 

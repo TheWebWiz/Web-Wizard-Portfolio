@@ -152,7 +152,7 @@ header {
 
 //starting pages
 
-//about me PAGE
+//nav bar for pages
 
 nav {
   div {
@@ -161,6 +161,8 @@ nav {
     }
   }
 }
+
+//about me PAGE
 
 #about-pictures {
   img {
@@ -179,5 +181,49 @@ nav {
     margin: 20px 0px;
     height: auto;
     width: 65%;
+  }
+}
+
+//projects page
+
+.project-page-card {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: 100vw;
+  height: 300px;
+}
+
+.project-page-card img {
+  grid-area: 1 / 1 / 4 / 2;
+  height: 100%;
+  width: 500px;
+  margin-right: 20px;
+}
+
+.project-page-card h3 {
+  grid-area: 1 / 2 / 2 / 5;
+  width: 100%;
+  text-align: left;
+}
+
+.project-page-card p {
+  grid-area: 2 / 2 / 3 / 5;
+  font-size: 20px;
+  text-align: left;
+  padding: 3px;
+  padding-bottom: 0%;
+  padding-right: 20px;
+  height: 100%;
+}
+
+.project-page-card ul {
+  grid-area: 3 / 2 / 4 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    padding: 10px;
   }
 }
