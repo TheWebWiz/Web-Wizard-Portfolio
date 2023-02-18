@@ -12,6 +12,8 @@
     <br />
     <h2>Updates</h2>
     <ul>
+      <h3>Update 11</h3>
+      <li>The site is now mobile friendly! Using Sass I refactored and recreated my styles to give a more functional and reactive experience for users. I also changed a few colors for accessibility concerns.</li>
       <h3>Update 10</h3>
       <li>Site is live and working well! As you may see a few things have changed. First of all, I will not be doing these updates every commit. Each commit has its own message so I will leave these updates to larger scale updates. Also, the updates have been flipped to have the most recent updates on the top. Finally, I started a new task for my project. I am swapping to SASS in order to fix a few issues and make the site mobile friendly. </li>
       <h3>Update 9</h3>
