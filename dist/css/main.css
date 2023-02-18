@@ -18,6 +18,36 @@ a:active {
   color: white;
 }
 
+nav div h2 {
+  display: none;
+}
+
+#about-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
+#about-pictures img {
+  width: 100%;
+  height: auto;
+  border: 8px solid rgba(43, 20, 20, 0.85);
+}
+
+#about-article-section #about-me-article {
+  color: rgb(255, 255, 255);
+  margin: 20px 0px;
+  height: auto;
+  background-image: none;
+  background-color: rgb(241, 200, 164);
+}
+#about-article-section #about-me-article:hover {
+  filter: none;
+}
+#about-article-section #about-me-article h3 {
+  text-align: center;
+}
+
 html {
   font-size: 20px;
   width: 100vw;
@@ -300,7 +330,8 @@ footer #dedication {
     background-repeat: no-repeat;
   }
   #about-me-section #about-me-text {
-    width: 65%;
+    width: 45%;
+    margin: 25px;
   }
   #featured-skills-section {
     display: grid;
@@ -369,5 +400,23 @@ footer #dedication {
   #featured-skills-section #featured-skills-text {
     grid-area: 3/1/4/4;
     margin-top: 25px;
+  }
+  nav div h2 {
+    display: block;
+  }
+  #about-pictures img {
+    width: 35%;
+    margin: 30px;
+    border: 17px solid rgba(43, 20, 20, 0.85);
+  }
+  #about-article-section {
+    display: flex;
+    justify-content: center;
+  }
+  #about-article-section #about-me-article {
+    color: rgb(255, 255, 255);
+    margin: 20px 0px;
+    height: auto;
+    width: 65%;
   }
 }/*# sourceMappingURL=main.css.map */

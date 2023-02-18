@@ -58,7 +58,8 @@ header {
   background-repeat: no-repeat;
 
   #about-me-text {
-    width: 65%;
+    width: 45%;
+    margin: 25px;
   }
 }
 
@@ -146,5 +147,37 @@ header {
   #featured-skills-text {
     grid-area: 3 / 1 / 4 / 4;
     margin-top: 25px;
+  }
+}
+
+//starting pages
+
+//about me PAGE
+
+nav {
+  div {
+    h2 {
+      display: block;
+    }
+  }
+}
+
+#about-pictures {
+  img {
+    width: 35%;
+    margin: 30px;
+    border: 17px solid $border-brown-color;
+  }
+}
+
+#about-article-section {
+  display: flex;
+  justify-content: center;
+
+  #about-me-article {
+    color: $white-color;
+    margin: 20px 0px;
+    height: auto;
+    width: 65%;
   }
 }

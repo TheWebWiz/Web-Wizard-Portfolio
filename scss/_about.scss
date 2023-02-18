@@ -1,0 +1,41 @@
+@import "./variables";
+
+//mobile nav bar fix
+nav {
+  div {
+    h2 {
+      display: none;
+    }
+  }
+}
+
+#about-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 8px solid $border-brown-color;
+  }
+}
+
+#about-article-section {
+  #about-me-article {
+    color: $white-color;
+    margin: 20px 0px;
+    height: auto;
+    background-image: none;
+    background-color: $beige-color;
+
+    &:hover {
+      filter: none;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  }
+}
