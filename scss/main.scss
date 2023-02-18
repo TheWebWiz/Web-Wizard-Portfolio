@@ -51,9 +51,10 @@ h6 {
   }
 
   p {
-    background-color: rgba(43, 20, 20, 0.85);
+    background-color: $border-brown-color;
     width: auto;
     padding: 20px;
+    border: 2px solid black;
   }
 }
 

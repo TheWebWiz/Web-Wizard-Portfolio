@@ -54,7 +54,7 @@ h6 {
 .card {
   width: 378px;
   height: 600px;
-  border: 17px solid rgb(43, 20, 20);
+  border: 17px solid rgb(74, 43, 34);
   background-image: url(/Images/cobblestone-bg.jpg);
   color: rgb(255, 255, 255);
   text-align: center;
@@ -63,15 +63,16 @@ h6 {
   filter: brightness(120%);
 }
 .card h3 {
-  background-color: rgb(43, 20, 20);
+  background-color: rgb(74, 43, 34);
   margin: 15px 0px;
   padding: 10px 0px;
   width: 100%;
 }
 .card p {
-  background-color: rgba(43, 20, 20, 0.85);
+  background-color: rgb(74, 43, 34);
   width: auto;
   padding: 20px;
+  border: 2px solid black;
 }
 
 p {
@@ -204,7 +205,7 @@ nav ul div a {
   align-items: center;
 }
 #featured-projects-section h2 {
-  background-color: rgb(43, 20, 20);
+  background-color: rgb(74, 43, 34);
   padding: 5px 24px;
   margin: 15px;
 }
@@ -233,7 +234,7 @@ footer #footer-back-to-top {
   width: 140px;
   height: 140px;
   border-radius: 70px;
-  border: 10px solid rgb(43, 20, 20);
+  border: 10px solid rgb(74, 43, 34);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +272,7 @@ nav div h2 {
 #about-pictures img {
   width: 100%;
   height: auto;
-  border: 8px solid rgb(43, 20, 20);
+  border: 8px solid rgb(74, 43, 34);
 }
 
 #about-article-section #about-me-article {
@@ -479,7 +480,7 @@ nav div h2 {
   #about-pictures img {
     width: 35%;
     margin: 30px;
-    border: 17px solid rgb(43, 20, 20);
+    border: 17px solid rgb(74, 43, 34);
   }
   #about-article-section {
     display: flex;
