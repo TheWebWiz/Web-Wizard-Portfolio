@@ -251,28 +251,22 @@ footer #dedication {
   color: grey;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 900px) {
   header {
     height: 90vh;
     min-height: 800px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
     justify-content: center;
   }
   header h1 {
     padding: 20px;
     font-weight: bold;
-    grid-area: 1/1/2/5;
     width: 100vw;
     height: 90px;
   }
-  header #header-skills {
-    grid-area: 3/2/4/4;
-  }
   header #header-projects {
-    grid-area: 3/3/4/5;
     margin: 0px 50px;
   }
   header .card h3 {
@@ -300,9 +294,9 @@ footer #dedication {
     background-color: rgba(0, 0, 0, 0);
     background-image: url(/Images/scroll-bg.png);
     height: 1300px;
-    width: 75vw;
+    width: 100vw;
     background-position: center;
-    background-size: cover;
+    background-size: 1100px;
     background-repeat: no-repeat;
   }
   #about-me-section #about-me-text {
