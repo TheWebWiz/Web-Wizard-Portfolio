@@ -354,7 +354,7 @@ nav div h2 {
   filter: none;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1350px) {
   header {
     height: 90vh;
     min-height: 800px;
