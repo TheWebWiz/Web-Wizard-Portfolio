@@ -497,7 +497,7 @@ nav div h2 {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
     width: 100vw;
-    height: 300px;
+    height: auto;
   }
   .project-page-card img {
     grid-area: 1/1/4/2;
@@ -509,6 +509,7 @@ nav div h2 {
     grid-area: 1/2/2/5;
     width: 100%;
     text-align: left;
+    padding-left: 10px;
   }
   .project-page-card p {
     grid-area: 2/2/3/5;
