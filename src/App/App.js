@@ -14,6 +14,18 @@ function App() {
       element: <Home />,
       // errorElement: TODO:create error element
     },
+    {
+      path: "about",
+      element: <About />,
+    },
+    {
+      path: "skills",
+      element: <Skills />,
+    },
+    {
+      path: "projects",
+      element: <Projects />,
+    },
   ]);
 
   return (
