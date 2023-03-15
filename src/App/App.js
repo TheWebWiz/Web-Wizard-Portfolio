@@ -6,13 +6,14 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import About from "./About/About";
 import Footer from "./Components/Footer/Footer";
+import Error from "./Components/Error/Error";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Home />,
-      // errorElement: TODO:create error element
+      errorElement: <Error />,
     },
     {
       path: "about",
