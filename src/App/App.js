@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./Home/Home";
 import Skills from "./Skills/Skills";
@@ -7,25 +8,17 @@ import About from "./About/About";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("");
-
-  function Page() {
-    switch (currentPage) {
-      case "Skills":
-        return <Skills />;
-      case "Projects":
-        return <Projects />;
-      case "About":
-        return <About />;
-      default:
-        return <Home />;
-    }
-  }
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+      // errorElement: TODO:create error element
+    },
+  ]);
 
   return (
     <div className="App">
-      <Page />
-      <Footer />
+      <RouterProvider router={router} />
     </div>
   );
 }
