@@ -4,8 +4,8 @@ import './About.css';
 function About() {
   return (
     <main>
-      <section>
-        {/* need to be acceable and needs image refactoring for webpages */}
+      <section className="img-section">
+        {/* need to be acceptable and needs image refactoring for webpages */}
         <figure> 
           <img src="./images/meandtiffboating20120.jpg" alt="Me and My wife out on our boat on Lake Erie" />
           <figcaption>
@@ -33,12 +33,12 @@ function About() {
         <figure>
           <img src="./images/meandtiffchrismas2020.jpg" alt="Me and my wife at christmas time in 2020" />
           <figcaption>
-            Me and my wife during Christmas time in 2020. I always have a smile when she next to me.
+            Me and my wife during Christmas time in 2020. I always have a smile when she is next to me.
           </figcaption>
         </figure>
       </section>
-      <section>
-        <h2>A Little More About ME...</h2>
+      <section className="info-section">
+        <h2>A Little More About Me...</h2>
         <p>My Computer Science journey started in 2019. Originally I was wanting to become a gaming developer. I ended up moving to northern Ohio for more job prospects in the field I wanted to work in and I met a girl who wanted to live by the lake, what can I say. Once I was settled, I eventually was hired by a small cannabis start up in Huron, Ohio. Although I was still learning coding, it began to take the back seat to the new work I was doing in the cannabis business.</p>
         <p>I soon became the safety coordinator of the company, mainly because of my past in construction safety, and my programming education had officially taken a rest. In 2021, I became the company's main safety and training specialist. This finally gave me an avenue to learn web development and programming again to create structured training courses and classes for my fellow employees to take. I needed to know basic HTML and CSS to perfect the look and feel of my courses. I used my previous education plus the MDN documentation to create truly unique and highly functional courses.</p>
         <p>Unfortunately, I was laid off in Dec 2022, but this did give me the time to fully resume my education path. I am currently learning to become a software engineer with a heavy focus on JavaScript. I am very fluent in HTML, CSS, and at basic Javascript, and have at put my hands on many different techs and libraries such as SASS, GitHub, React, Node.js, Redux, and more! If you have any questions please email me via the contact button or for more info please see my LinkedIn, and Github profiles. Thank You.</p>
