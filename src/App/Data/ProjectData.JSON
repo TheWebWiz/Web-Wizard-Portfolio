@@ -1,0 +1,8 @@
+[{
+    "id": 1,
+    "image": "./images/lo-wireframe.png",
+    "name": "Life Organizer",
+    "description": "Life Organizer is a mobile web app that I currently have in development. This application is designed to solve a few inconveniences I have with my current management apps. I wanted to create something that would contain all the information I use for task tracking in programming and development. I will be using a React stack for this project. The app will be released in steps that you can see by going to the milestones sections of its GitHub repository.",
+    "linkOne": "https://thewebwiz.github.io/Life-Organizer/",
+    "linkTwo": "https://github.com/TheWebWiz/Life-Organizer"
+}]
